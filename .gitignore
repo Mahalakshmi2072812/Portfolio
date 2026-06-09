@@ -1,0 +1,46 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+
+# =========================
+# Build output (Tailwind)
+# =========================
+output.css
+dist/
+build/
+
+# =========================
+# Logs
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Tailwind / CSS cache (optional)
+# =========================
+.postcss-cache/
+.tailwind-cache/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE files
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
